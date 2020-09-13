@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar img {
+    width: 70px;
+}
+.navbar  {
+    z-index: 99999;
+}
+.boldd {
+    font-size: 2em;
+    font-weight: bold;
+}
+.navbar a {
+    font-size: 1.3em;
+    
+}
+/* section area */
+#header-area {
+    background: url('images/mbr-4.jpg') no-repeat 0 0 / 100% 100%;
+    background-attachment: fixed;
+    min-height: 450px;
+    position: relative;
+    z-index: 1;
+}
+#header-area::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    min-height: 450px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+#header-area p {
+    font-size: 2em;
+}
+#header-area h2 {
+    font-size: 4.5em;
+}
+#header-area button {
+    padding: 20px 40px;
+    font-size: 1.5em;
+    background: white;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #6278DF;
+}
+#header-area .firstb:hover button {
+    background:#6278DF;
+    color: white;
+}
+#video-area p {
+    line-height: 2em;
+}
+#video-area h2 {
+    font-size: 3.5em;
+}
+#application p {
+   font-size: 1.7em;
+}
+#application h2 {
+    font-size: 3em;
+}
+#application i {
+    font-size: 3.5em;
+    color: #6278DF;
+}
+.shadowf {
+    box-shadow: 2.5px 4.33px 40px 0 rgba(64,87,191,0.1);
+    height: 100%;
+}
+#our-app p {
+    font-size: 1.7em;
+ }
+ #our-app h2 {
+     font-size: 3em;
+ }
+ #our-app h4 {
+     font-size: 2em;
+ }
+ #our-app h5 {
+     font-size: 2em;
+ }
+ #our-app i  {
+     
+     color: #6278DF;
+     font-weight: bold;
+     padding: 10px;
+     
+    
+ }
+ #our-app li {
+     font-size: 1.5em;
+     list-style: none; 
+ }
+ .handsome {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+ }
+ .buttons a {
+    box-shadow: 2.5px 4.33px 40px 0 rgba(64,87,191,0.1);
+    
+    font-size: 1.5em;
+    background: white;
+    color: black;
+    font-weight: bold;
+
+ }
+ .buttons:hover a {
+    background:#6278DF;
+    color: white;
+}
+.initial:hover {
+    background: #6278DF;
+    color: white;
+}
+.initial {
+    border-radius: 5px;
+    transition: 0.3s all;
+}
+.helo {
+    font-size: 3em;
+}
+#our-team p {
+    font-size: 1.5em;
+   
+}
+#our-team h2 {
+    font-size: 2.5em;
+}
+#our-team img {
+    width: 400px;
+}
+.hover-content {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+ }
+
+ #subscribe p {
+    font-size: 1.5em;
+   
+}
+#subscribe h2 {
+    font-size: 3.5em;
+}
+.helloi button {
+    padding: 8px 30px;
+    font-size: 1.5em;
+    background: white;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #6278DF;
+}
+.helloi:hover button {
+    background:#6278DF;
+    color: white;
+}
+.box1 {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+#new p {
+    font-size: 1.3em;
+}
+#new img{
+    min-height: 240px;
+}
+.box-content {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    position: relative;
+}
+
+.box-content p{
+    font-size: 1.5em;
+   
+   
+}
+.box-content .con{
+    font-size: 6.5em;
+    opacity: 0.1;
+    position: absolute;
+    left:0px;
+    top: 0px;
+    padding: 10px;
+   
+
+}
+.box-content .islam{
+    font-size: 6.5em;
+    position: absolute;
+    bottom:0px;
+    top: 80%;
+    left: 40%;
+    color: #4B4330;
+    opacity: 0.3;
+    
+
+}
+#feedback p {
+    font-size: 1.5em;
+   
+}
+#feedback h2 {
+    font-size: 3.5em;
+}
+#new p {
+    font-size: 1.5em;
+   
+}
+#new h2 {
+    font-size: 3.5em;
+}
+.firstc a {
+    padding: 8px 30px;
+    font-size: 1.5em;
+    background: white;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #6278DF;
+}
+.firstc:hover a {
+    background:#6278DF;
+    color: white;
+}
+
+#contact-us p {
+    font-size: 1.5em;
+   
+}
+#contact-us h3 {
+    font-size: 2.5em;
+}
